@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 7f2e0c1d9e7e2486e9c015fab05a2f98
+timeCreated: 1491286367
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: .Lock Clock
+  fontNames:
+  - .Lock Clock
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

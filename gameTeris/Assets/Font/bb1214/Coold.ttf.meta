@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 87512788cddf541098d5bd3c18fe2ed5
+timeCreated: 1491286367
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Coldbringer KG
+  fontNames:
+  - Coldbringer KG
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

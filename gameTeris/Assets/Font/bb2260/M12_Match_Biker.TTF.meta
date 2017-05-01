@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 0a2036f9f22f746b5a51f9ed8ff5a7d5
+timeCreated: 1491286367
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: M12_MACH BIKER
+  fontNames:
+  - M12_MACH BIKER
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

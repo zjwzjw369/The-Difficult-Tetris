@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: be2df705af41c4de7baa641202b6bd75
+timeCreated: 1491286368
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Volter (Goldfish)
+  fontNames:
+  - Volter (Goldfish)
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

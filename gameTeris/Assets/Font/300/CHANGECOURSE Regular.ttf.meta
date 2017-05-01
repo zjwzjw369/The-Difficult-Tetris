@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 2ab281861c87445168c925e4d1df1b0d
+timeCreated: 1491286367
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: CHANGECOURSE
+  fontNames:
+  - CHANGECOURSE
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

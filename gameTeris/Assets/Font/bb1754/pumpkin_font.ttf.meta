@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: b5aaefbe0918d4ffa9a8b7fb55bb1d87
+timeCreated: 1491286368
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Pumpkin Font
+  fontNames:
+  - Pumpkin Font
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

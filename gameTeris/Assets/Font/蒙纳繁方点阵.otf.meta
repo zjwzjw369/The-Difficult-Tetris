@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: fa486bb517117402f8f7ec8407c526c6
+timeCreated: 1491286368
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: MBitmapSquareHK
+  fontNames:
+  - MBitmapSquareHK
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

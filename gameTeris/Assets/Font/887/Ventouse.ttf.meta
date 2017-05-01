@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 49eb8bef8bc204532b76aff85f8a6d9e
+timeCreated: 1491286367
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Ventouse
+  fontNames:
+  - Ventouse
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

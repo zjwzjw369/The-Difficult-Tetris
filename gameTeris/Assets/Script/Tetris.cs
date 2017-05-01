@@ -2,16 +2,34 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using System.IO;
+
 public class Tetris : MonoBehaviour {
 	public static bool isTouched=true;//if the block has touch other block or the bottomPlane
 	public GameObject[] BlockPfb=new GameObject[7];
 	public GameObject end;
+	public GameObject newRecord;
 	public Text scoreText;
+	public Text bestText;
 	private int scoreNum=0;
+	string tmpDES;
+	string tmp;
 	int frame=0;
+	string path;
 	// Use this for initialization
 	void Start () {
-
+		path = Application.persistentDataPath + "\\";
+		StreamReader sr = null;
+		try{
+			sr=File.OpenText(path + "game.dat");	
+		}catch{
+			Debug.Log("cant open file");
+		}
+		tmpDES = sr.ReadLine ();
+		sr.Close ();
+		sr.Dispose ();
+		tmp = Best.DecryptDES (tmpDES, "asdasfsfa");
+		bestText.text = tmp;
 	}
 	
 	// Update is called once per frame
@@ -60,7 +78,29 @@ public class Tetris : MonoBehaviour {
 			isTouched = false;
 		}
 		if(BLockControl.endTag){
-			end.SetActive (true);
+			if (scoreNum > int.Parse (tmp)) {
+				//create record
+				StreamWriter sw;
+				FileInfo t = new FileInfo (path+"game.dat");
+				if (!t.Exists) {//if file exits,read and display;
+					sw = t.CreateText ();
+					tmpDES = Best.EncryptDES (tmp, "asdasfsfa");
+					sw.WriteLine (tmpDES);
+					sw.Close ();
+					sw.Dispose ();
+				} else {
+					t.Delete ();
+					sw = t.CreateText ();
+					tmpDES = Best.EncryptDES (scoreNum.ToString ("000"), "asdasfsfa");
+					sw.WriteLine (tmpDES);
+					sw.Close ();
+					sw.Dispose ();
+				}
+				newRecord.SetActive (true);
+				newRecord.transform.FindChild ("num").GetComponent<Text> ().text = scoreNum.ToString ();
+			} else {
+				end.SetActive (true);
+			}
 		}
 
 	}
